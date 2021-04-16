@@ -3,8 +3,8 @@ provider "google" {
 
   credentials = var.creds
   project = "sales"
-  region  = "us-east-2"
-  zone    = "us-east-4c"
+  region  = "us-central1"
+  zone    = "us-central1-c"
 }
 
 variable "hostname" {
