@@ -2,7 +2,7 @@ provider "google" {
   credentials = var.gcp_creds
   project = "Sales"
   region  = "us-central1"
-  zone    = "us-central1-c"
+  zone    = "us-central1-a"
 }
 
 # Harness parameterized set variables
