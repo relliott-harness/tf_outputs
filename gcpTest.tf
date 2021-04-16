@@ -44,6 +44,6 @@ resource "google_compute_instance" "vm_instance" {
 }
 
 
-output "ip" {
-  value = google_compute_instance.google_compute_address.address
-}
+#output "ip" {
+#  value = google_compute_instance.google_compute_address.address
+#}
