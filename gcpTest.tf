@@ -10,8 +10,12 @@ variable "gcp_creds" {
   type = string
 }
 
+variable "hostname" {
+  type = string
+}
+
 resource "google_compute_instance" "vm_instance" {
-  name         = "robin-tf-001"
+  name         = var.hostname
   machine_type = "f1-micro"
 
   boot_disk {
